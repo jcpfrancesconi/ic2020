@@ -13,7 +13,7 @@ public class AgenteSequencial extends Agent {
         SequentialBehaviour comportamento = new SequentialBehaviour(this){
             public int onEnd(){
                 myAgent.doDelete();
-                return 0;
+                return 1;
             }
         };
 
