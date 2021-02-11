@@ -21,7 +21,7 @@ public class ImprimeFrase extends Behaviour {
 
     public boolean done() {
 
-        return numExecucao>10;
+        return numExecucao>2;
     }
 
     public int onEnd(){
