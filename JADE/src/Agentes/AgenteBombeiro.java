@@ -8,6 +8,7 @@ import jade.lang.acl.MessageTemplate;
 public class AgenteBombeiro extends Agent {
     protected void setup() {
         addBehaviour(new CyclicBehaviour(this) {
+
             @Override
             public void action() {
                 //Seleção de mensagem - criação do filtro
